@@ -181,8 +181,9 @@ To run the tests, use the following command:
 ## Entity Relationship Diagram
 
 The ERD for the project can be found below: 
-
-![Entity Relationship Diagram](https://github.com/VICTOR-OLAOPA/DemoCredit/blob/master/imgs/erd.png?raw=true)
+<p>
+  <img src="./imgs/erd.png" width="100" height="100" />
+</p>
 
 ## Contributing
 
