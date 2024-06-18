@@ -9,6 +9,7 @@ DemoCredit is a micro-lending platform designed to facilitate seamless financial
 - [Usage](#usage)
 - [API Documentation](#api-documentation)
 - [Testing](#testing)
+- [Entity Relationship Diagram](#entity-relationship-diagram)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact Information](#contact-information)
@@ -176,3 +177,29 @@ To run the tests, use the following command:
 
 ```sh
 npm test
+```
+## Entity Relationship Diagram
+
+The ERD for the project can be found below:
+![ERD](./imgs/erd.png)
+
+## Contributing
+
+If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact Information
+
+For more information, please contact:
+
+- **Name**: OLAOPA VICTOR OLUSEGUN
+- **Email**: olaopavictor@gmail.com
+- **GitHub**: [VICTOR-OLAOPA](https://github.com/VICTOR-OLAOPA)
