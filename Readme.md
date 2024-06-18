@@ -175,12 +175,11 @@ To use the application, follow these steps:
 
 To run the tests, use the following command:
 
-```sh
-npm test
-```
+  ```sh
+  npm test
+  ```
 ## Entity Relationship Diagram
 
-<<<<<<< HEAD
 The ERD for the project can be found below: 
 
 ![Entity Relationship Diagram](./imgs/ERD.jpeg)
