@@ -180,6 +180,7 @@ npm test
 ```
 ## Entity Relationship Diagram
 
+<<<<<<< HEAD
 The ERD for the project can be found below: 
 
 ![Entity Relationship Diagram](./imgs/ERD.jpeg)
