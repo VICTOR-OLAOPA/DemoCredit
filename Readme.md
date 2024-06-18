@@ -181,8 +181,7 @@ npm test
 ## Entity Relationship Diagram
 
 The ERD for the project can be found below:
-<img src="./erd.png" width="128"/>
-
+![ERD](./imgs/erd.png)
 
 ## Contributing
 
