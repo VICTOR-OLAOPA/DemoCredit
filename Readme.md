@@ -182,7 +182,7 @@ To run the tests, use the following command:
 
 The ERD for the project can be found below: 
 <p>
-  <img src="./imgs/erd.png" width="100" height="100" />
+  <img src="https://github.com/VICTOR-OLAOPA/DemoCredit/blob/master/imgs/erd.png?raw=true" width="100" height="100" />
 </p>
 
 ## Contributing
