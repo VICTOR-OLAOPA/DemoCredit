@@ -33,7 +33,7 @@ class UserService {
       // Create wallet with 0 balance for the new user
       const wallet = await Wallet.query(trx).insert({user_id: user.id, balance: 0});
       console.log(`User ${user.name} Registered. Wallet created for ${user.name}`)
-      return {isBlacklisted, user, wallet};
+      return {user, wallet};
     });
   }
 
