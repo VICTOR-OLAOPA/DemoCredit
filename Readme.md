@@ -182,7 +182,7 @@ To run the tests, use the following command:
 
 The ERD for the project can be found below: <br>
 
-![Entity Relationship Diagram](./imgs/erd.png)
+![Entity Relationship Diagram](./imgs/erd.png?raw=true)
 
 ## Contributing
 
