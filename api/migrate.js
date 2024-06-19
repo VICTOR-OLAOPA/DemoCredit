@@ -1,16 +1,11 @@
-const { exec } = require('child_process');
+import { NextApiRequest, NextApiResponse } from 'next';
+import knex from 'knex';
 
-module.exports = async (req, res) => {
-  exec('npm run migrate', (error, stdout, stderr) => {
-    if (error) {
-      console.error(`Error: ${error.message}`);
-      return res.status(500).send(`Error: ${error.message}`);
-    }
-    if (stderr) {
-      console.error(`Stderr: ${stderr}`);
-      return res.status(500).send(`Stderr: ${stderr}`);
-    }
-    console.log(`Stdout: ${stdout}`);
-    res.status(200).send(`Migrations completed: ${stdout}`);
-  });
-};
+export default async function handler(req, res) {
+  try {
+    await knex.migrate.latest();
+    res.status(200).json({ message: 'Migrations ran successfully' });
+  } catch (error) {
+    res.status(500).json({ error: 'Error running migrations' });
+  }
+}
