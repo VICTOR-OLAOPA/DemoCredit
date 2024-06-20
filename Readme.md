@@ -65,6 +65,7 @@ To use the application, follow these steps:
 4. **Withdraw funds**: Send a POST request to `/api/wallets/withdraw` with the withdrawal details.
 
 ## API Documentation
+A more compreheensive documentation can be accessed [Here](https://docs.google.com/document/d/1vCOIqZOaTzzKvLD7s_VDk8uxOwpg3u-hjIzy2z0D8sk)
 
 ### Endpoints
 
